@@ -6,10 +6,16 @@ navigation history that also transitions its views in and out.
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
   <!-- Dashboard Tab -->
-  <ion-tab title="Eventos" icon-off="ion-clipboard" icon-on="ion-clipboard" href="#/tab/dash">
-    <ion-nav-view name="tab-dash"></ion-nav-view>
+  <ion-tab  title="Eventos" icon-off="ion-clipboard" icon-on="ion-clipboard" href="#/tab/dash">
+    <ion-nav-view name="tab-dash">
+    </ion-nav-view>
   </ion-tab>
- 
+
+ <!--  <a href="#/tab/dash" id="event" onclick="salir();" class="tab-item">
+    <i  class="icon ion-clipboard"></i>
+    Salir
+  </a> -->
+
   <a id="salir" onclick="salir();" class="tab-item">
     <i  class="icon ion-power"></i>
     Salir

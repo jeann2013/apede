@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.apede430449" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.apede.apede" version="0.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Apede</name>
   <description>
-       Aplicacion Para Control de Contactos
+        App Apede para Control de Contactos en SugarCRM
     </description>
   <author email="jeancarlosn2008@gmail.com" href="http://bitbugsoluciones.com/">
-      BitBUGSoluciones
+      BitBugSoluciones
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <icon src="img/ionic.png" />   
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
