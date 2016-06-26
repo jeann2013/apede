@@ -1,21 +1,37 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <widget id="com.apede.apede" version="0.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Apede</name>
-  <description>
+    <name>Apede</name>
+    <description>
         App Apede para Control de Contactos en SugarCRM
     </description>
-  <author email="jeancarlosn2008@gmail.com" href="http://bitbugsoluciones.com/">
+    <author email="jeancarlosn2008@gmail.com" href="http://bitbugsoluciones.com/">
       BitBugSoluciones
     </author>
-  <content src="index.html"/>
-  <access origin="*"/>
-  <icon src="img/ionic.png" />   
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="android-minSdkVersion" value="16"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
+    <content src="index.html" />
+    <icon src="www/img/ionic.png" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>
+    <plugin name="cordova-plugin-device" spec="~1.0.1" />
+    <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.0.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="~2.1.0" />
+    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <plugin name="ionic-plugin-keyboard" spec="~1.0.7" />
+    <access origin="*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <plugin name="cordova-plugin-network-information" spec="~1.2.1" />
+    <engine name="android" spec="~4.0.1" />
 </widget>

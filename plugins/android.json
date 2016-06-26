@@ -1,0 +1,37 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.apede.apede"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.apede.apede"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.apede.apede"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.apede.apede"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.apede.apede"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.apede.apede"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.apede.apede"
+        }
+    },
+    "dependent_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.apede.apede"
+        }
+    }
+}
